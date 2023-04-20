@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: tahoma;
+    font-size: 16px;
+}
+#container {
+    width : 1200px;
+    margin : auto;
+}
+
+#heater {
+    height: 230px;
+    width: 1200px;
+    font-family: tahoma;
+    position: relative;
+}
+#logo {
+    float: left;
+    position: absolute;
+}
+#admin {
+    float: right;
+    position: relative;
+    padding: 20px 20px;
+    color: black;
+}
+#heater a {
+    float: right;
+    position: relative;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: red;
+}
+
+#heater a:hover {
+    text-decoration: underline;
+}
+#menu {
+    font-family: tahoma;
+    width: 1200px;
+    height: 100px;
+    position: relative;
+}
+#menu ul {
+    list-style-type: none;
+    background-color: aquamarine;
+}
+#menu ul li {
+    color: black;
+    display: inline-table;
+    width: 150px;
+    height: 70px;
+    position: relative;
+}
+#menu ul li button {
+    color: black;
+    display: block;
+    font-size: 15px;
+}
+#menu ul li button:hover {
+    background: #dddddd;
+    color: black;
+}
+#menu ul li button {
+    font-family: sans-serif;
+    background: #d61b06;
+    border: none;
+    width: 100%;
+    height: 98%;
+}
+#display {
+    width: 1200px;
+    height: 700px;
+}
+
+#poster {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+#displayElement {
+    font-family: sans-serif;
+    float: right;
+    width: 65%;
+    height: 100%;
+    padding: 10px 10px;
+    color: black;
+}
+#displayElement a {
+    text-decoration: none;
+    color: blue;
+}
+#footer {
+    clear: both;
+}
+
+#footer p {
+    margin: 5px;
+    font-family: sans-serif;
+    color: black;
+    padding: 5px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+table {
+    color: black;
+}
+#displayElement td > img {
+    width: 250px;
+}

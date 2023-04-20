@@ -1,0 +1,10 @@
+let introduce = "<h3>GÀ RÁN KENTUCKY TẠI VIỆT NAM</h3>" + "<br>"+
+"<p>KFC là cụm từ viết tắt của Kentucky Fried Chicken - Gà Rán Kentucky, một trong các thương hiệu thuộc Tập đoàn Yum Brands Inc (Hoa Kỳ). KFC chuyên về các sản phẩm gà rán và nướng, với các món ăn kèm theo và các loại sandwiches chế biến từ thịt gà tươi. Hiện nay đang có hơn 20.000 nhà hàng KFC tại 109 quốc gia và vùng lãnh thổ trên toàn thế giới. </p>" + "<br>"
++ "<p>KFC nổi tiếng thế giới với công thức chế biến gà rán truyền thống Original Recipe, được tạo bởi cùng một công thức pha trộn bí mật 11 loại thảo mộc và gia vị khác nhau do Đại tá Harland Sanders hoàn thiện hơn nửa thế kỷ trước.</p>"+"<br>"
++ "<h3>TẦM NHÌN & HOÀI BÃO THƯƠNG HIỆU</h3>" + "<br>"
++ "<p>Bên cạnh những món ăn truyền thống như gà rán và Bơ-gơ, đến với thị trường Việt Nam, KFC đã chế biến thêm một số món để phục vụ những thức ăn hợp khẩu vị người Việt như: Gà Big‘n Juicy, Gà Giòn Không Xương, Cơm Gà KFC, Bắp Cải Trộn … Một số món mới cũng đã được phát triển và giới thiệu tại thị trường Việt Nam, góp phần làm tăng thêm sự đa dạng trong danh mục thực đơn, như: Bơ-gơ Tôm, Lipton, Bánh Egg Tart.</p>"+"<br>"
++"<p>Năm 1997, KFC đã khai trương nhà hàng đầu tiên tại Thành phố Hồ Chí Minh. Đến nay, hệ thống các nhà hàng của KFC đã phát triển tới hơn 140 nhà hàng, có mặt tại hơn 21 tỉnh/thành phố lớn trên cả nước, sử dụng hơn 3.000 lao động đồng thời cũng tạo thêm nhiều việc làm trong ngành công nghiệp bổ trợ tại Việt Nam.</p>"+"<br>"
++ "<p>Hương vị độc đáo, phong cách phục vụ thân thiện, hết lòng vì khách hàng và bầu không khí nồng nhiệt, ấm cúng tại các nhà hàng là ba chìa khóa chính mở cánh cửa thành công của KFC tại Việt Nam cũng như trên thế giới. KFC Việt Nam đã tạo nên một nét văn hóa ẩm thực mới và đóng góp to lớn vào sự phát triển của ngành công nghiệp thức ăn nhanh tại Việt Nam.</p>"
+function Introduce(){
+    document.getElementById("displayElement").innerHTML = introduce;
+}
